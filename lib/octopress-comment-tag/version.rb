@@ -1,7 +1,7 @@
 module Octopress
   module Tags
-    module CommentTag
-      VERSION = "1.0.0"
+    module Comment
+      VERSION = "1.0.1"
     end
   end
 end
