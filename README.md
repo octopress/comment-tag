@@ -40,7 +40,7 @@ Next add it to your gems list in Jekyll's `_config.yml`
 The underscore is the tag name.
 
     {% _ This is a comment! %}
-    {% _// Add slashes or other non-word characters to make comments stand out beter %}
+    {% _// Add slashes or other non-word characters to make comments stand out better %}
 
 Also, it's easy to comment out a liquid tag, for example, you can easily disable an include tag like this:
 
