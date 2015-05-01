@@ -1,17 +1,7 @@
 require "octopress-comment-tag/version"
 require "jekyll"
 
-module Octopress
-  module Tags
-    module Comment
-      class Tag < Liquid::Tag
-        def render(context); end
-      end
-    end
-  end
-end
-
-Liquid::Template.register_tag('_', Octopress::Tags::Comment::Tag)
+Liquid::Template.register_tag('_', Liquid::Tag)
 
 if defined? Octopress::Docs
   Octopress::Docs.add({
